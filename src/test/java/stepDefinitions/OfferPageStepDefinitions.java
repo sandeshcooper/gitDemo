@@ -28,6 +28,8 @@ public class OfferPageStepDefinitions {
         offersPage.typeTopDealsSearchBar(shortName);
         Thread.sleep(3000);
         Assert.assertEquals(offersPage.offersPageProductName(), TextContextSetup.FULL_TEXT,"Both the actual and expected texts are equal");
+        System.out.println("Hello i am here");
+        System.out.println("Hello i am there");
         textContextSetup.driver.quit();
     }
 
