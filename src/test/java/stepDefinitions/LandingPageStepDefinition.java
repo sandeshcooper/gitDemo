@@ -33,4 +33,8 @@ public class LandingPageStepDefinition {
         Assert.assertEquals(fullNameWithQuantity.substring(0,fullNameWithQuantity.indexOf(" "))
                 , TextContextSetup.FULL_TEXT,"Both the actual and expected text are equal");
     }
+
+    public void manMadhan() {
+        System.out.println("There existed a manmadhan in our project");
+    }
 }

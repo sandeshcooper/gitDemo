@@ -39,4 +39,12 @@ public class OfferPageStepDefinitions {
         ArrayList<String> arrayList = new ArrayList<>(windowHandles);
         textContextSetup.driver.switchTo().window(arrayList.get(1));
     }
+
+    public void nanMaganAlla() {
+        System.out.println("Ethuku pannuren ne therila");
+    }
+
+    public void vadaSutaAkka() {
+        System.out.println("There is a new vada in town");
+    }
 }
