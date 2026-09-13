@@ -47,4 +47,8 @@ public class OfferPageStepDefinitions {
     public void vadaSutaAkka() {
         System.out.println("There is a new vada in town");
     }
+
+    public void waterBottle() {
+        System.out.println("This is a water bottle team");
+    }
 }
