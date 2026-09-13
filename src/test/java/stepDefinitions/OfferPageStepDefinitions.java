@@ -30,6 +30,7 @@ public class OfferPageStepDefinitions {
         Assert.assertEquals(offersPage.offersPageProductName(), TextContextSetup.FULL_TEXT,"Both the actual and expected texts are equal");
         System.out.println("Hello i am here");
         System.out.println("Hello i am there");
+        System.out.println("THere are lot of changes here but i am adding this lien for reference");
         textContextSetup.driver.quit();
     }
 
